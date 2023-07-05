@@ -1,0 +1,271 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My News Website</title>
+  <style>
+    body {
+      background-image: url('background-image.jpg');
+      background-size: cover;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    header {
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+    } 
+    button {
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #ffffff00;
+    border-color: #ffffff00;
+    color: #ffffff;
+    padding: 12px 12px 12px 12px;
+}
+a:-webkit-any-link {
+  color:#ffffff;
+}
+    a:hover {
+        color: white;
+    }
+    a:visited {
+        color: white;
+    }
+    a:focus {
+        color: white;
+    }
+    .left-buttons {
+
+      display: flex;
+      gap: 10px;
+     
+    }
+
+    .right-button {
+      background-color: #ffffff00;
+      border-radius: 10px;
+      padding: 5px 10px;
+      border-color: #ffffff;
+      color: #ffffff;
+    }
+
+    section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 28px 30px 35px 32px;
+    width: calc(35% - 88px);
+    display: flex;
+    gap: 34px;
+    align-items: center;
+}
+
+    .card img {
+      width: 120px;
+    }
+
+    .card-content {
+      flex-grow: 1;
+    }
+
+    .card-heading {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .card-date {
+      color: gray;
+      font-size: 12px;
+    }
+
+    .card-text {
+      margin-top: 10px;
+      font-size: 14px;
+    }
+
+    .read-more {
+      margin-top: 10px;
+      background-color: #4caf50;
+      color: #ffffff;
+      padding: 5px 10px;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+
+    footer {
+      background-color: #ffffff;
+      padding: 20px;
+      color: #000000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .quick-links {
+    display: flex;
+    gap: 3px;
+    flex-wrap: wrap;
+}
+
+    footer .quick-links button {
+      color:#000000;
+      size: 10px;
+    }
+    @media (max-width: 750px) {
+      header {
+        justify-content: flex-end;
+      }
+      .hamburger-menu {
+        font-size: 24px;
+        color: #ffffff;
+        cursor: pointer;
+        padding: 5px;
+      }
+
+      .left-buttons {
+        display: none;
+      }
+
+      .right-button {
+        display: none;
+      }
+
+      .card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .card img {
+        order: -1;
+        margin-bottom: 10px;
+      }
+    }
+  
+  </style>
+</head>
+<body>
+  <header>
+    <div class="left-buttons">
+      <button>Home</button>
+      <button><a style="text-decoration:none" href="registration.html">Registration</a></button>
+      <button><a style="text-decoration:none" href="record.html">Records</a></button>
+      <button>About</button>
+    </div>
+    <button class="right-button">Name</button>
+    <div class="hamburger-menu">&#9776;</div>
+  </header>
+
+  <section>
+    <div class="card">
+      <img src="image1.png" alt="Image 1">
+      <div class="card-content">
+        <p class="card-date">Date 1</p>
+        <h2 class="card-heading">Heading 1</h2>
+        
+        <p class="card-text">This is a two-liner dummy text for the first card.</p>
+        <a href="#" class="read-more">Read More</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="image1.png" alt="Image 1">
+      <div class="card-content">
+        <p class="card-date">Date 1</p>
+        <h2 class="card-heading">Heading 1</h2>\
+        <p class="card-text">This is a two-liner dummy text for the first card.</p>
+        <a href="#" class="read-more">Read More</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="image1.png" alt="Image 1">
+      <div class="card-content">
+        <p class="card-date">Date 1</p>
+        <h2 class="card-heading">Heading 1</h2>\
+        <p class="card-text">This is a two-liner dummy text for the first card.</p>
+        <a href="#" class="read-more">Read More</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="image1.png" alt="Image 1">
+      <div class="card-content">
+        <p class="card-date">Date 1</p>
+        <h2 class="card-heading">Heading 1</h2>
+        <p class="card-text">This is a two-liner dummy text for the first card.</p>
+        <a href="#" class="read-more">Read More</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="image1.png" alt="Image 1">
+      <div class="card-content">
+        <p class="card-date">Date 1</p>
+        <h2 class="card-heading">Heading 1</h2>\
+        <p class="card-text">This is a two-liner dummy text for the first card.</p>
+        <a href="#" class="read-more">Read More</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="image1.png" alt="Image 1">
+      <div class="card-content">
+        <p class="card-date">Date 1</p>
+        <h2 class="card-heading">Heading 1</h2>\
+        <p class="card-text">This is a two-liner dummy text for the first card.</p>
+        <a href="#" class="read-more">Read More</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="image1.png" alt="Image 1">
+      <div class="card-content">
+        <p class="card-date">Date 1</p>
+        <h2 class="card-heading">Heading 1</h2>\
+        <p class="card-text">This is a two-liner dummy text for the first card.</p>
+        <a href="#" class="read-more">Read More</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="image1.png" alt="Image 1">
+      <div class="card-content">
+        <p class="card-date">Date 1</p>
+        <h2 class="card-heading">Heading 1</h2>\
+        <p class="card-text">This is a two-liner dummy text for the first card.</p>
+        <a href="#" class="read-more">Read More</a>
+      </div>
+    </div>
+
+    <!-- Repeat the card code for the remaining cards -->
+
+    <!-- Total of 8 cards -->
+
+  </section>
+
+  <footer>
+    <div>
+      <h2>My News Website</h2>
+    </div>
+    <div class="quick-links">
+      <button>Home</button>
+      <button>Travels</button>
+      <button>Recommendations</button>
+      <button>Mission Statement</button>
+      <button>About Us</button>
+      <button>Promo Fill</button>
+      <button>Guides</button>
+      <button>The Team</button>
+    </div>
+  </footer>
+</body>
+</html>
